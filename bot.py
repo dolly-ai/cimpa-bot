@@ -3,9 +3,10 @@ from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
                            MessageHandler, filters, ConversationHandler,
                            ContextTypes)
 import sqlite3
+import os
 
-TOKEN = "8771413427:AAFbNelNxLwmIMI992LzdqgLvtbhRpWpPpw"
-ADMIN_ID = 6667678277  # angka saja, tanpa kutip
+TOKEN = os.environ.get("8771413427:AAFbNelNxLwmIMI992LzdqgLvtbhRpWpPpw")
+ADMIN_ID = int(os.environ.get("6667678277"))  # angka saja, tanpa kutip
 
 # State untuk ConversationHandler
 NAMA, NOMOR_HP, LAYANAN, DETAIL = range(4)

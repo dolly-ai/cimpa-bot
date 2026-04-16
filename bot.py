@@ -5,8 +5,8 @@ from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
 import sqlite3
 import os
 
-TOKEN = os.environ.get("8771413427:AAFbNelNxLwmIMI992LzdqgLvtbhRpWpPpw")
-ADMIN_ID = int(os.environ.get("6667678277"))  # angka saja, tanpa kutip
+TOKEN = os.environ.get("TOKEN")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
 
 # State untuk ConversationHandler
 NAMA, NOMOR_HP, LAYANAN, DETAIL = range(4)

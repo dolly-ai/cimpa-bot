@@ -123,9 +123,9 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data == "hubungi_admin":
         keyboard = [[InlineKeyboardButton("🔙 Kembali", callback_data="kembali")]]
         await query.edit_message_text(
-            "📞 *Hubungi Kami:*\n\n"
-            "💬 Telegram Admin: @username_admin_kamu\n"
-            "📱 WhatsApp: 08xxxxxxxxxx\n"
+            "📞 *Hubungi Kami:Ma Karo\n\n"
+            "💬 Telegram Admin: @acmolly12\n"
+            "📱 WhatsApp: 083130576869\n"
             "⏰ Respon: Senin–Sabtu, 08.00–21.00\n\n"
             "_Konsultasi gratis, tanpa syarat!_",
             parse_mode="Markdown",

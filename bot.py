@@ -126,7 +126,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📞 *Hubungi Kami:Ma Karo\n\n"
             "💬 Telegram Admin: @acmolly12\n"
             "📱 WhatsApp: 083130576869\n"
-            "⏰ Respon: Senin–Sabtu, 08.00–21.00\n\n"
+            "⏰ Respon: Senin–Sabtu, 08.00–22.00\n\n"
             "_Konsultasi gratis, tanpa syarat!_",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(keyboard)
